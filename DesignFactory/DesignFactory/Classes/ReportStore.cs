@@ -4,6 +4,9 @@ using System.Text;
 
 namespace DesignFactory.Classes
 {
+    /// <summary>
+    /// Creation of the report.  This will be implemented in ReportStand.cs
+    /// </summary>
     public abstract class ReportStore
     {
         protected abstract Reports CreateReports(string type);

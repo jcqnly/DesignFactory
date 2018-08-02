@@ -17,6 +17,8 @@ namespace DesignFactory
             Reports reports = null;
             ReportStand reportStand = new ReportStand();
             reports = ReportFactory.CreateReports("news");
+            Console.WriteLine("---------------------");
+            reportStand.OrderReport("news");
         }
     }
 }

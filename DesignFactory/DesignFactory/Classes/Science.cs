@@ -4,6 +4,7 @@ using System.Text;
 
 namespace DesignFactory.Classes
 {
+    //concrete type of a Reports
     public class Science : Reports
     {
     }

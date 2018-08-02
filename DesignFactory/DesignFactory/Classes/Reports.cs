@@ -4,6 +4,9 @@ using System.Text;
 
 namespace DesignFactory.Classes
 {
+    /// <summary>
+    /// properties of the Reports class
+    /// </summary>
     public abstract class Reports
     {
         public void Research()

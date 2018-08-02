@@ -6,6 +6,11 @@ namespace DesignFactory.Classes
 {
     class ReportFactory
     {
+        /// <summary>
+        /// Concrete object of the Creator
+        /// </summary>
+        /// <param name="reportType"></param>
+        /// <returns>type Report</returns>
         public static Reports CreateReports(string reportType)
         {
             Console.WriteLine($"Writing a {reportType} report");
