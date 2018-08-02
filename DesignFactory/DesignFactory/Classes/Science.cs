@@ -4,11 +4,7 @@ using System.Text;
 
 namespace DesignFactory.Classes
 {
-    public class DocFactory
+    public class Science : Reports
     {
-        public static Report CreateReport()
-        {
-
-        }
     }
 }

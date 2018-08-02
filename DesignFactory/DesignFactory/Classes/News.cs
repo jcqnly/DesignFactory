@@ -4,8 +4,7 @@ using System.Text;
 
 namespace DesignFactory.Classes
 {
-    public class DocStore
+    public class News : Reports
     {
-        protected abstract Report CreateReport(string type);
     }
 }
